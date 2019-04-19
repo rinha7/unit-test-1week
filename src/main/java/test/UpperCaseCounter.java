@@ -1,3 +1,5 @@
+package test;
+
 public class UpperCaseCounter {
     public int getNumberOfUpperCaseCharactersInString(String str) {
         if (str == null) {
@@ -13,4 +15,5 @@ public class UpperCaseCounter {
         }
         return numberOfUpperCaseChars;
     }
+
 }
